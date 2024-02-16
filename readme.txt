@@ -1,0 +1,1 @@
+This version of wordle is for your command line. I haven't learned how to use tools to make a GUI yet.
