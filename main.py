@@ -11,14 +11,14 @@ secret_word = random.choice(words)
 #print(secret_word)
 my_guess = ["[ ]","[ ]","[ ]","[ ]","[ ]"]
 
-print("Welcome the totally not Wordle clone.\n"
+print("Welcome the totally not Wordle clone.\n\n"
       "Guess a 5 letter word (no numbers or symbols). \n"
       "The word may end in an 'S' - but there are very few plural words.\n"
       "There are a limited number of proper nouns.\n"
       "If your guess has a * after it, you have guessed a letter in the word, but not in that spot.\n"
       "If your guess is lower case, it is not in the word.\n"
       "If your guess is upper case with no symbols, it is the correct letter for that spot!\n"
-      "Have fun! :)")
+      "Have fun! :)\n")
 
 def guesser(guess, n = None):
     if n == None:
